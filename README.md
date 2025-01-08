@@ -274,13 +274,14 @@
 - version : JDK 1.8, oracle 11g (port:1521 / service:XE), Tomcat 9, sts-3.9.13.RELEASE
 - encoding : UTF-8
 
-
-1. oracle 관리자 계정에서 root 폴더의 script.sql 파일 실행 -> src/main/resources/applicationContext.xml에서 DB 설정정보 참고
-
-
-
-
-3. 패키지 구조
+1. oracle 관리자 계정에서 root 폴더의 **fakeTube.sql** 파일 실행 -> src/main/resources/applicationContext.xml에서 DB 설정정보 참고
+2. sts-3.9.13.RELEASE 설치 후 Package Explorer 에서 Import - **Projects from Folder or Archive**로 압축해제한 폴더 지정
+ - Windows - Preferences - General - Workspace - **Refresh using native hooks or polling 체크**
+ - Web - CSS, HTML, JSP Files 에서 **Encoding** 방식 **UTF-8**로 설정
+3. 메일 인증 관련 설정
+ - src/main/java/com/spring/ft/members/*MailSendService.java*에서 **setFrom** 변수에 **email 주소 입력**
+ - src/main/resources/applicationContext.xml에서 **이메일 인증 관련 계정 설정**에서 **username, password에 email 주소, 비밀번호 입력**
+4. 패키지 구조
 ```
 ├─src                         
 │  └─com
