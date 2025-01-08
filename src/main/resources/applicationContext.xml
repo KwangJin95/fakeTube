@@ -48,8 +48,8 @@
 		
 		<!-- ******************************* -->
 		<!-- 이메일 인증 관련 계정 설정 -->
-		<property name="username" value="rhkdwls95@naver.com" />
-		<property name="password" value="qor159!!" />
+		<property name="username" value="" />
+		<property name="password" value="" />
 		<!-- ******************************* -->
 		
 		<property name="defaultEncoding" value="utf-8" />
