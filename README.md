@@ -301,7 +301,7 @@
 4. 패키지 구조
 ```
 pom.xml
-fakeTube.sql                                       : user 생성 및 권한 설정, table, sequence 생성, data 삽입 SQL문 작성 파일
+fakeTube.sql : user 생성 및 권한 설정, table, sequence 생성, data 삽입 SQL문 작성 파일
 └─src
      └─main
          ├─java
