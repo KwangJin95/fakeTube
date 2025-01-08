@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 		
 		// ****************************************
 		// email-config에 설정한 자신의 이메일 주소를 입력
-		String setFrom = "rhkdwls95@naver.com"; 
+		String setFrom = ""; 
 		// ****************************************
 		
 		public void makeRandomNumber() {
