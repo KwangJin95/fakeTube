@@ -213,8 +213,9 @@
     <th>화면</th>
   </tr>
   <tr>
-    <td><b>채널<br>콘텐츠</b></td>
+    <td><b>채널<br>콘텐츠<br>및<br>동영상<br>삭제</b></td>
     <td width="85%"><img src="https://github.com/user-attachments/assets/863d1065-d94b-4419-840f-b6816241bf7f"></td>
+    <td width="85%"><img src="https://github.com/user-attachments/assets/3b61edf7-50ea-408a-8110-1e23a2fe3227"></td>
   </tr>
 </table>
 
