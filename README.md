@@ -310,17 +310,17 @@ fakeTube.sql							                                     : user 생성 및 권한
          │           └─ft
          │               ├─comments                            : 댓글 service 인터페이스 및 댓글 VO 클래스
          │               │   └─impl                            : 댓글 service 구현 클래스 및 댓글 DAO 클래스    
-         │               ├─common					                     : 페이징 클래스
-         │               ├─likes					                	   : 좋아요 service 인터페이스 및 좋아요 VO 클래스
-         │               │   └─impl				                	   : 좋아요 service 구현 클래스 및 좋아요 DAO 클래스   
-         │               ├─members					                   : 회원, 이메일 인증 service 인터페이스 및 회원, 구독 VO 클래스
-         │               │   └─impl					                   : 회원 service 구현 클래스 및 회원 DAO 클래스 
-         │               ├─qna						   		               : 문의 service 인터페이스 및 문의, 페이징 VO 클래스  
-         │               │   └─impl					   		             : 문의 service 구현 클래스 및 문의 DAO 클래스   
-         │               ├─sub						   		               : 구독 service 인터페이스 및 구독 VO 클래스 
-         │               │   └─impl					                   : 구독 service 구현 클래스 및 구독 DAO 클래스      
-         │               ├─video						           		     : 동영상 service 인터페이스 및 동영상, 채널 VO 클래스
-         │               │   └─impl					                   : 동영상 service 구현 클래스 및 동영상 DAO 클래스  
+         │               ├─common                              : 페이징 클래스
+         │               ├─likes                               : 좋아요 service 인터페이스 및 좋아요 VO 클래스
+         │               │   └─impl                            : 좋아요 service 구현 클래스 및 좋아요 DAO 클래스   
+         │               ├─members                             : 회원, 이메일 인증 service 인터페이스 및 회원, 구독 VO 클래스
+         │               │   └─impl                            : 회원 service 구현 클래스 및 회원 DAO 클래스 
+         │               ├─qna                                 : 문의 service 인터페이스 및 문의, 페이징 VO 클래스  
+         │               │   └─impl                            : 문의 service 구현 클래스 및 문의 DAO 클래스   
+         │               ├─sub                                 : 구독 service 인터페이스 및 구독 VO 클래스 
+         │               │   └─impl                            : 구독 service 구현 클래스 및 구독 DAO 클래스      
+         │               ├─video                               : 동영상 service 인터페이스 및 동영상, 채널 VO 클래스
+         │               │   └─impl                            : 동영상 service 구현 클래스 및 동영상 DAO 클래스  
          │               └─view : controller
          │                   ├─comments    
          │                   ├─likes    
@@ -341,27 +341,27 @@ fakeTube.sql							                                     : user 생성 및 권한
          │       ├─sub
          │       └─video
          │               
-         └─webapp								                               : 각종 jsp 파일
-             ├─common 					                      	       : 각종 jsp 파일
-             ├─iconImage				                        			 : 아이콘 이미지 파일
-             ├─profileImage 			                     			   : 계정 이미지 파일
+         └─webapp                                              : 각종 jsp 파일
+             ├─common                                          : 각종 jsp 파일
+             ├─iconImage                                       : 아이콘 이미지 파일
+             ├─profileImage                                    : 계정 이미지 파일
              ├─resources
-             │   ├─css							                           : css 파일
+             │   ├─css                                         : css 파일
              │   └─images
-             │       ├─icon					                   		     : 아이콘 이미지 파일
-             │       └─members				                   	     : 기본 계정 이미지 파일
-             ├─thumimgs					                               : 동영상 섬네일 이미지 파일
-             ├─videos				                                   : 동영상 파일
+             │       ├─icon                                    : 아이콘 이미지 파일
+             │       └─members                                 : 기본 계정 이미지 파일
+             ├─thumimgs                                        : 동영상 섬네일 이미지 파일
+             ├─videos                                          : 동영상 파일
              └─WEB-INF
                  │   web.xml
-                 ├─config							                         : servletContext 설정 파일
-                 ├─jsp								                         : 각종 jsp 파일
+                 ├─config                                      : servletContext 설정 파일
+                 ├─jsp                                         : 각종 jsp 파일
                  │   ├─comments
                  │   ├─frame
                  │   ├─member
                  │   ├─myChannel
                  │   ├─qna
                  │   └─video
-                 └─views							                         : 각종 jsp 파일
+                 └─views                                       : 각종 jsp 파일
 
 ```
