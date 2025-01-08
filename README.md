@@ -274,6 +274,7 @@
 - version : JDK 1.8, oracle 11g (port:1521 / service:XE), Tomcat 9, sts-3.9.13.RELEASE
 - encoding : UTF-8
 
+
 1. oracle 관리자 계정에서 root 폴더의 **fakeTube.sql** 파일 실행 -> src/main/resources/applicationContext.xml에서 DB 설정정보 참고
 2. sts-3.9.13.RELEASE 설치 후 Package Explorer 에서 Import - **Projects from Folder or Archive**로 압축해제한 폴더 지정
  - Windows - Preferences - General - Workspace - **Refresh using native hooks or polling 체크**
